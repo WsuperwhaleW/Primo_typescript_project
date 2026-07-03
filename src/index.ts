@@ -1,7 +1,12 @@
 import { merge } from './merge';
 
-const array1 = [1, 2, 5, 6, 9];
-const array2 = [1, 3, 4, 12];
-const mergedArray1 = merge(array1, array2);
+const col1 = [1, 4, 7];
+const col2 = [2, 5, 8];
+const col3 = [9, 6, 3]; // descending
 
-console.log('Merged Array1:', mergedArray1);
+const result = merge(col1, col2, col3);
+
+console.log('col1  :', col1);
+console.log('col2  :', col2);
+console.log('col3  :', col3);
+console.log('merged:', result);
